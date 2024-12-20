@@ -1,0 +1,87 @@
+[
+  {
+    "model": "workers.group",
+    "pk": 1,
+    "fields": {
+      "name": "Бригада 1"
+    }
+  },
+  {
+    "model": "workers.group",
+    "pk": 2,
+    "fields": {
+      "name": "Бригада 2"
+    }
+  },
+  {
+    "model": "workers.speciality",
+    "pk": 1,
+    "fields": {
+      "name": "Черновая отделка"
+    }
+  },
+  {
+    "model": "workers.speciality",
+    "pk": 2,
+    "fields": {
+      "name": "Бригадир"
+    }
+  },
+  {
+    "model": "workers.speciality",
+    "pk": 3,
+    "fields": {
+      "name": "Прораб"
+    }
+  },
+  {
+    "model": "workers.worker",
+    "pk": 1,
+    "fields": {
+      "name": "Иванов",
+      "group": 1,
+      "payment": 10000,
+      "speciality": 1
+    }
+  },
+  {
+    "model": "workers.worker",
+    "pk": 2,
+    "fields": {
+      "name": "Петров",
+      "group": 2,
+      "payment": 12000,
+      "speciality": 1
+    }
+  },
+  {
+    "model": "workers.worker",
+    "pk": 3,
+    "fields": {
+      "name": "Сидоров",
+      "group": 1,
+      "payment": 16000,
+      "speciality": 2
+    }
+  },
+  {
+    "model": "workers.worker",
+    "pk": 4,
+    "fields": {
+      "name": "Сергеев",
+      "group": 1,
+      "payment": 20000,
+      "speciality": 3
+    }
+  },
+  {
+    "model": "workers.worker",
+    "pk": 5,
+    "fields": {
+      "name": "Сергеев",
+      "group": 2,
+      "payment": 20000,
+      "speciality": 3
+    }
+  }
+]
